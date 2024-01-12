@@ -1,9 +1,3 @@
-//Project by Zakkary Loveall(W09956088) and Miles Hays(W10102472)
-//Sources:
-//https://www.w3schools.com/jsref/jsref_tostring_number.asp
-//https://www.geeksforgeeks.org/memoization-1d-2d-and-3d/
-//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity
-
 var dynamic = [];
 
 function indexer(graph, start) {
@@ -72,5 +66,3 @@ function heldkarp(cities, start, graph) {
     return min;
   }
 }
-
-exports.tsp_hk = tsp_hk; //for runner
